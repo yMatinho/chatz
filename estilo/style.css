@@ -1,0 +1,113 @@
+.form-group {
+	/*margin-top: 25px;*/
+}
+.login-box {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 60%;
+}
+.login-box form {
+	padding: 20px;
+	text-align: center;
+}
+.login-box form input[type=text] {
+	width: 100%;
+	border:1px solid #525252;
+	border-radius: 10px;
+	font-size: 18px;
+	padding: 5px;
+	margin-top: 10px;
+}
+.login-box form input[type=submit] {
+	padding: 8px 25px;
+	color: white;
+	font-size: 18px;
+	font-weight: lighter;
+	background: #00bcd4;
+	border:none;
+	cursor: pointer;
+}
+.login-box h2 {
+	text-align: center;
+	margin-bottom:70px;
+	font-size: 50px;
+}
+section.chat h2 {
+	text-align: center;
+	/*font-weight: lighter;*/
+	margin-top: 50px;
+	font-size: 35px;
+	color: #525252;
+}
+section.chat .chat-container {
+	border:1px solid #ccc;
+	padding: 20px;
+	border-radius: 15px;
+	margin-top: 40px;
+	overflow-y: auto;
+	height: 500px;
+
+}
+section.chat .chat-container form input[type=text] {
+	padding: 6px;
+	width: calc(100% - 65px);
+	border:1px solid #ccc;
+	border-right: none;
+}
+section.chat .chat-container form input[type=submit] {
+	background: #00bcd4;
+	color: white;
+	padding: 5px 25px;
+	font-size: 18px;
+	font-weight: lighter;
+	border:none;
+	cursor: pointer;
+	transition: 0.25s;
+}
+section.chat .chat-container form input[type=submit]:hover {
+	background: transparent;
+	color: #00bcd4;
+	border:1px solid #00bcd4;
+} 
+section.chat .chat-container form label i {
+	font-size: 25px;
+	color: #00bcd4;
+	cursor: pointer;
+}
+section.chat .chat-container label {
+	padding: 2px 18px;
+	border:1px solid #ccc;
+	border-left: none;
+}
+section.chat .chat-container img {
+	width: 30%;
+	border-radius: 15px;
+}
+section.chat .chat-mensagem {
+	margin-top: 30px;
+	border-top: 1px solid #ccc;
+	padding: 25px;
+}
+section.chat .chat-mensagem .user p {
+	font-size: 18px;
+	font-weight: lighter;
+	margin: 15px 0;
+
+}
+section.chat .chat-mensagem p.usuario {
+	color: #00bcd4;
+	font-weight: bold;
+}
+@media screen and (max-width: 500px) {
+	section.chat .chat-mensagem img {
+		width: 70% !important;
+	}
+	section.chat .center > h2 {
+		font-size: 22px;
+	}
+	section.chat .chat-container {
+		height: 400px;
+	}
+}
